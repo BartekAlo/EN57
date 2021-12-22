@@ -97,3 +97,6 @@ footer{
 .trzyobrazy{
     display: flex;
 }
+main p{
+    margin: 0.5em 0;
+}

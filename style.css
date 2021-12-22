@@ -61,12 +61,16 @@ nav a{
     padding: 1em 0;
     display: block;
     background-color: #0A40FF;
-    color: #FFF;
+    color: #EEDE4D;
     text-decoration: none;
 }
-nav a:hover, .link_active {
+nav a:hover{
     background-color: #FF0000;
     color: #0A40FF;
+}
+.link_active{
+    background-color: #EEDE4D;
+    color:#0A40FF;
 }
 main{
     padding: 0 0.5em;

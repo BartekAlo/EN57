@@ -50,7 +50,7 @@ nav a{
     color: #FFF;
     text-decoration: none;
 }
-nav a:hover{
+nav a:hover, nav a:active{
     background-color: #FF0000;
     color: #0A40FF;
 }

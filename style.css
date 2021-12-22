@@ -11,6 +11,19 @@ gap: 1em;
 width: 80%;
 margin: auto;
 }
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 253px;
+    gap: 1em;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 header h1{
     background-color: #EEDE4D;
     text-align: center;
@@ -55,12 +68,6 @@ nav a:hover, nav a:active{
     background-color: #FF0000;
     color: #0A40FF;
 }
-.home{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 253px;
-}
 main{
     padding: 0 0.5em;
 }
@@ -72,7 +79,7 @@ main figure{
 main img{
     width: 100%;
     display: block;
-    max-height: 253px;
+    max-height: 253px; 
 }
 main .pion{
     max-width: 203px;
@@ -96,9 +103,11 @@ footer{
     align-items: center;
     height: 75px;
     color: #0A40FF;
+    margin-top: 1em;
 }
 footer img{
     max-height: 50px;
+    margin-left: 1em;
 }
 .imgtxt figure{
     flex-basis: 30%;
